@@ -1,5 +1,7 @@
 # Python LLM - Local Large Language Model Service
 
+English Version | [中文版](./README.md)
+
 A lightweight local large language model service, similar to Ollama, supporting GGUF format model pulling, management, and inference.
 
 ## 🌟 Features

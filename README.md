@@ -1,5 +1,7 @@
 # Python LLM - 本地大语言模型服务
 
+[English Version](./README_EN.md) | 中文版
+
 一个轻量级的本地大语言模型服务，类似Ollama，支持GGUF格式模型的拉取、管理和推理。
 
 ## 🌟 特性
