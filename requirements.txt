@@ -1,0 +1,31 @@
+# Python LLM 服务依赖 - llama.cpp 版本
+
+# 核心推理引擎
+llama-cpp-python>=0.3.0
+
+# Web 框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# 模型下载和管理
+huggingface-hub>=0.21.0
+requests>=2.31.0
+
+# 数据处理
+numpy>=1.24.0
+
+# 进度条和日志
+tqdm>=4.66.0
+
+# 可选：开发和测试工具
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# 注意：
+# 1. llama-cpp-python 会自动检测并使用 Metal (macOS) 或 CUDA (Linux/Windows) 加速
+# 2. 如果需要特定的加速支持，可以安装对应版本：
+#    - Metal (macOS): pip install llama-cpp-python[metal]
+#    - CUDA: pip install llama-cpp-python[cuda]
+#    - OpenBLAS: pip install llama-cpp-python[openblas]
+# 3. 本项目仅支持 GGUF 格式的模型文件
