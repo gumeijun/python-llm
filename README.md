@@ -19,7 +19,7 @@
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone https://github.com/gumeijun/python-llm.git
 cd python-llm
 
 # 安装依赖

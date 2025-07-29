@@ -19,7 +19,7 @@ A lightweight local large language model service, similar to Ollama, supporting 
 
 ```bash
 # Clone project
-git clone <repository-url>
+git clone https://github.com/gumeijun/python-llm.git
 cd python-llm
 
 # Install dependencies
